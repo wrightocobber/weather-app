@@ -1,0 +1,164 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  background-color: hsl(271, 90%, 88%);
+  background-image: url("../media/gemart.PNG");
+  background-size: cover;
+}
+.app-container {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  border: #dcebf5 solid 7px;
+  border-radius: 30px;
+  height: 580px;
+  width: 470px;
+  color: #21445a;
+}
+.form-container {
+  margin-top: 30px;
+  display: block;
+  margin: 20px 10px 0px 10px;
+}
+
+input[type="search"] {
+  background-color: #ffffffb3;
+  margin-left: 5px;
+  padding: 10px;
+  border: #ffffff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 6px rgba(94, 86, 96, 0.3);
+  transition: 120ms ease-in-out;
+  width: 260px;
+}
+input[type="search"]::placeholder {
+  color: #13082b;
+  font-size: 14px;
+  text-align: left;
+}
+
+input[type="search"]:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  margin-left: 4px;
+  font-size: 14px;
+  background-color: #ffffffb3;
+  padding: 10px 25px;
+  border: #ffffff;
+  border-radius: 30px;
+  color: rgb(24, 24, 39);
+  box-shadow: 2px 2px 6px rgba(93, 93, 93, 0.3);
+  transition: 120ms ease-in-out;
+}
+input[type="submit"]:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.form-container button {
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+  background-color: #ffffffb3;
+  border: 0;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  box-shadow: 2px 2px 6px rgba(93, 93, 93, 0.3);
+  transition: 120ms ease-in-out;
+}
+.form-container button:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.form-container i {
+  font-size: 18px;
+}
+.container-local {
+  margin-top: 20px;
+  min-width: 80%;
+  max-width: 95%;
+  font-weight: bold;
+}
+.container-local h1 {
+  font-size: 24px;
+}
+.container-local h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.container-local p {
+  font-size: 16px;
+  margin-left: 2px;
+}
+.local-left ul,
+.local-right ul {
+  list-style-type: none;
+  text-align: left;
+  font-size: 14px;
+}
+.local-right {
+  text-align: right;
+  width: 300px;
+  position: relative;
+  right: -40px;
+}
+.main-container {
+  background-color: hsla(210, 82%, 83%, 0.655);
+  border: solid #ffffffb3 2px;
+  border-radius: 30px;
+  min-width: 80%;
+  max-width: 95%;
+  margin-left: 20px;
+  position: relative;
+  bottom: 10px;
+  box-shadow: 2px 2px 6px rgba(93, 93, 93, 0.3);
+}
+.main-container i {
+  font-size: 96px;
+  position: relative;
+  top: 40px;
+}
+.main-container h4 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+.main-container h2 {
+  position: relative;
+  top: -60px;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 96px;
+}
+.celcius,
+.fahrenheit {
+  margin: 0;
+  position: relative;
+  bottom: 160px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.forecast {
+  position: relative;
+  bottom: 25px;
+  text-align: center;
+}
+.forecast p {
+  font-size: 14px;
+}
+.weekday {
+  font-weight: 800;
+}
+.weekday-icon i {
+  font-size: 32px;
+  position: relative;
+  top: 5px;
+}
