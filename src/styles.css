@@ -8,11 +8,10 @@ body {
   background-size: cover;
 }
 .app-container {
-  background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
-  border: #dcebf5 solid 7px;
+  background-color: #8ec5fc1d;
+  border: #dcebf5 solid 2px;
   border-radius: 30px;
-  height: 580px;
+  height: 520px;
   width: 470px;
   color: #21445a;
 }
@@ -108,15 +107,10 @@ input[type="submit"]:hover {
   right: -40px;
 }
 .main-container {
-  background-color: hsla(210, 82%, 83%, 0.655);
-  border: solid #ffffffb3 2px;
-  border-radius: 30px;
+  display: block;
+  padding: 10px;
   min-width: 80%;
   max-width: 95%;
-  margin-left: 20px;
-  position: relative;
-  bottom: 10px;
-  box-shadow: 2px 2px 6px rgba(93, 93, 93, 0.3);
 }
 .main-container i {
   font-size: 96px;
@@ -124,7 +118,7 @@ input[type="submit"]:hover {
   top: 40px;
 }
 .main-container h4 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   margin-top: 20px;
   margin-left: 20px;
@@ -148,9 +142,10 @@ input[type="submit"]:hover {
 
 .forecast {
   position: relative;
-  bottom: 25px;
-  text-align: center;
+  left: 24px;
+  bottom: 60px;
 }
+
 .forecast p {
   font-size: 14px;
 }
@@ -161,4 +156,12 @@ input[type="submit"]:hover {
   font-size: 32px;
   position: relative;
   top: 5px;
+}
+.gitContainer {
+  display: block;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.gitLink {
+  color: #903b86;
 }
